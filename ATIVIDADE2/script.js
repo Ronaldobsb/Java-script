@@ -23,5 +23,13 @@ function faxetaria(){
     
 }
 
+function ex(){
+    let dolares = Number(prompt("insira os dolars"));
+    const cota = 5.10
+
+    let reais = dolares * cota
+    alert(` o valor em reais e de : ${reais}`)
+}
+
 
 
