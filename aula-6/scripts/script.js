@@ -17,6 +17,13 @@ class Cliente{
     cpf;
     rg;
     datadenacimento;
+    //metodo = metodo e uma açao feita pelo objeto
+    sacar(){
+        this.saldo -= valor
+        return ` o valor de r$ ${valor} foi sacado com sucesso!`
+    }
+
+    depositar(){}
 
 }
 
